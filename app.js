@@ -1,13 +1,16 @@
-//Declarando variables
-let listaAmigos = [];
+
+
+//declaración de variables
+let amigosIngresados = [];
 let amigos;
 
-//Función para añadir amigos a la lista
+//Función para agregar amigos
+
 function añadirAmigos() {
     
 }
 
-//Función para limpiar la caja de texto
+//Función para limpiar la caja
 function limpiarCaja() {
     
 }
@@ -17,7 +20,14 @@ function mostrarLista() {
     
 }
 
+
 //Función para sortear un nombre aleatorio de la lista
 function sortearNombre() {
     
 }
+
+//Función para sortear el nombre aleatorio
+function nombreAleatorio() {
+    
+}
+
