@@ -1,17 +1,14 @@
 
 
 //declaración de variables
-let amigosIngresados = [];
+let listaAmigos = [];
 
 
 //Función para agregar amigos a la lista
 function añadirAmigos() {
-    if ("#añadirAmigo" == "") {
-        alert("Coloque un nombre porfavor")
-    } else {
-        let nombreIngresado = document.getElementById("añadirAmigos").value;
-        amigosIngresados.push(nombreIngresado);
-    }
+    let nuevoAmigo = document.getElementById('ingresarAmigo').value;
+    listaAmigos.push(nuevoAmigo);
+    console.log(listaAmigos);
     return;
 }
 
