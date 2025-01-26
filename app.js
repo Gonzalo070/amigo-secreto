@@ -13,7 +13,7 @@ function añadirAmigos() {
 
 //Función para limpiar la caja
 function limpiarCaja() {
-    
+    document.querySelector("#ingresarAmigos").value = "";
 }
 
 //Función para actualizar la lista y mostrarla en pantalla
