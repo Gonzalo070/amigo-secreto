@@ -8,7 +8,7 @@ let amigosIngresados = [];
 function añadirAmigos() {
     let nombreIngresado = document.getElementById("añadirAmigos").value;
     amigosIngresados.push(nombreIngresado);
-    console.log(amigosIngresados)
+    return;
 }
 
 //Función para limpiar la caja
