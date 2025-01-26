@@ -6,8 +6,12 @@ let amigosIngresados = [];
 
 //Función para agregar amigos a la lista
 function añadirAmigos() {
-    let nombreIngresado = document.getElementById("añadirAmigos").value;
-    amigosIngresados.push(nombreIngresado);
+    if ("#añadirAmigo" == "") {
+        alert("Coloque un nombre porfavor")
+    } else {
+        let nombreIngresado = document.getElementById("añadirAmigos").value;
+        amigosIngresados.push(nombreIngresado);
+    }
     return;
 }
 
