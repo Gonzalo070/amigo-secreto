@@ -26,8 +26,3 @@ function sortearNombre() {
     
 }
 
-//Función para sortear el nombre aleatorio
-function nombreAleatorio() {
-    
-}
-
