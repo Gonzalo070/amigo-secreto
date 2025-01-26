@@ -7,6 +7,7 @@ let amigos;
 //Función para agregar amigos a la lista
 
 function añadirAmigos() {
+    document.getElementById("añadirAmigos");
     
 }
 
@@ -25,4 +26,3 @@ function mostrarLista() {
 function sortearNombre() {
     
 }
-
