@@ -1,1 +1,23 @@
-console.log("tu amigo secreto es....")
+//declaración de variables
+let amigosIngresados = [];
+let amigos;
+
+//Función para agregar amigos
+function añadirAmigos() {
+    
+}
+
+//Función para limpiar la caja
+function limpiarCaja() {
+    
+}
+
+//Función para actualizar la lista y mostrarla en pantalla
+function mostrarLista() {
+    
+}
+
+//Función para sortear el nombre aleatorio
+function nombreAleatorio() {
+    
+}
