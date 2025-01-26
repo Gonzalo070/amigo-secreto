@@ -4,7 +4,7 @@
 let amigosIngresados = [];
 let amigos;
 
-//Función para agregar amigos
+//Función para agregar amigos a la lista
 
 function añadirAmigos() {
     
