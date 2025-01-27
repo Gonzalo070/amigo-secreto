@@ -2,11 +2,12 @@
 
 //declaración de variables
 let listaAmigos = [];
+let nuevoAmigo;
 
 
 //Función para agregar amigos a la lista
 function añadirAmigos() {
-    let nuevoAmigo = document.getElementById('ingresarAmigo').value;
+    nuevoAmigo = document.getElementById('ingresarAmigo').value;
     listaAmigos.push(nuevoAmigo);
     console.log(listaAmigos);
     return;
