@@ -1,30 +1,19 @@
-
-
-//declaración de variables
+// Declaración de variables
 let listaAmigos = [];
-let nuevoAmigo;
 
-
-//Función para agregar amigos a la lista
+// Función para agregar amigos a la lista
 function añadirAmigos() {
-    nuevoAmigo = document.getElementById('ingresarAmigo').value;
-    listaAmigos.push(nuevoAmigo);
-    console.log(listaAmigos);
-    return;
-}
-
-//Función para limpiar la caja
-function limpiarCaja() {
-    document.querySelector("#ingresarAmigos").value = "";
-}
-
-//Función para actualizar la lista y mostrarla en pantalla
-function mostrarLista() {
+    let nuevoAmigo = document.getElementById('ingresarAmigo').value;
     
+    // Verificar si la entrada no está vacía
+    if (nuevoAmigo.trim() !== '') {
+        listaAmigos.push(nuevoAmigo);
+        console.log(listaAmigos);
+        // Limpiar el campo de entrada
+        document.getElementById('ingresarAmigo').value = '';
+    } else {
+        console.log('Por favor ingresa un nombre válido.');
+    }
 }
 
 
-//Función para sortear un nombre aleatorio de la lista
-function sortearNombre() {
-    
-}
