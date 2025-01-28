@@ -12,22 +12,31 @@ function añadirAmigos() {
     } else {
         listaDeAmigos.push(nuevoAmigo);
         console.log(listaDeAmigos);
+        
+        //Mostrar lista en pantalla
+        mostrarLista();
     }
+
     //limpiar caja de texto
     document.querySelector("#amigo").value = "";
+
     return;
 }
 
+//funcion para mostrar la lista en pantalla
 function mostrarLista() {
-    let listaMostradaEnPantalla = document.getElementById("listaAmigos");
-    let listaNombres = [];
-    for (let i = 0; i < listaNombres.length; i++) {
-        let li = document.createElement("li");
-        li.textContent = listaNombres[i];
+    const listaMostradaEnPantalla = document.querySelector('ul');
+    listaMostradaEnPantalla.innerHTML = '';
+    listaDeAmigos.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
         listaMostradaEnPantalla.appendChild(li);
-    }
+    })
     return;
 }
+
+
+
 
 
 
