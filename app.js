@@ -15,6 +15,7 @@ function añadirAmigos() {
     }
     //limpiar caja de texto
     document.querySelector("#amigo").value = "";
+    return;
 }
 
 function mostrarLista() {
@@ -25,6 +26,7 @@ function mostrarLista() {
         li.textContent = listaNombres[i];
         listaMostradaEnPantalla.appendChild(li);
     }
+    return;
 }
 
 
