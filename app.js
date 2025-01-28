@@ -13,9 +13,21 @@ function añadirAmigos() {
         listaDeAmigos.push(nuevoAmigo);
         console.log(listaDeAmigos);
     }
-
     //limpiar caja de texto
     document.querySelector("#amigo").value = "";
 }
+
+function mostrarLista() {
+    let listaMostradaEnPantalla = document.getElementById("listaAmigos");
+    let listaNombres = [];
+    for (let i = 0; i < listaNombres.length; i++) {
+        let li = document.createElement("li");
+        li.textContent = listaNombres[i];
+        listaMostradaEnPantalla.appendChild(li);
+    }
+}
+
+
+
 
 
